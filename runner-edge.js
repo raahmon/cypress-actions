@@ -3,6 +3,7 @@ const tesults = require('cypress-tesults-reporter');
 
 
 cypress.run({
+  browser: 'edge'
   // specs to run here
 })
 .then((results) => {
